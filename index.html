@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="Logo.jpg">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Jana</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-icon" id="menu-icon">&#9776;</div>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="Home">
+    <div class="home-content">
+      <div class="home-text">
+        <h1>Hello, I'm Jana</h1>
+        <p>
+          I am a passionate Data Science & AI enthusiast who thrives on exploring the intersection of data, technology, and creativity. 
+          My focus is on building intelligent systems that solve real-world problems, whether that’s developing machine learning models, 
+          deploying AI-driven applications, or designing insightful visualizations. I enjoy transforming raw data into powerful insights, 
+          experimenting with new tools, and constantly challenging myself to grow in the ever-evolving tech landscape. 
+          My vision is to contribute to innovative solutions that make a positive impact on people’s lives and inspire others to embrace the world of AI.
+        </p>
+        <a href="#projects"><button class="btn">View My Work</button></a>
+      </div>
+      <div class="home-photo">
+        <img src="IMG1.png" alt="Profile Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m passionate about Artificial Intelligence and Data Science, blending problem-solving with creativity. 
+      My journey includes building ML models, data visualization, and AI-powered apps. 
+      I love turning complex data into meaningful insights.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>AI Chatbot</h3>
+        <p>Built an intelligent chatbot using NLP and deep learning.</p>
+      </div>
+      <div class="project-card">
+        <h3>Data Dashboard</h3>
+        <p>Interactive data visualization dashboard with Python & Power BI.</p>
+      </div>
+      <div class="project-card">
+        <h3>ML Model Deployment</h3>
+        <p>Deployed a machine learning model with Streamlit & Flask.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">Python</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Machine Learning</div>
+      <div class="skill">Deep Learning</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">Data Visualization</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Let’s connect!</p>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/" target="_blank">GitHub</a>
+    <a href="mailto:your@email.com">Email</a>
+  </section>
+
+  <footer>
+    © 2025 Janjuna | Designed with passion 💡
+  </footer>
+
+  <!-- Small JavaScript for menu toggle -->
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.getElementById('nav-links');
+
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
